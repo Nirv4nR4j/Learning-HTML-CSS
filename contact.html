@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe</title>
+
+  <!--background-->
+  <style>
+    body {
+  background-image:url(./images/background2.webp) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  </style>
+
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap" rel="stylesheet">
+
+
+
+    <!--images-->
+    <style>
+      .pic2 {
+        float: left;
+      }
+      .pic1 {
+        float: right;
+      }
+    </style>
+
+</head>
+
+
+<body>
+<br><br><br><br>
+   <img src="./images/cybersecurity_homepage_opt.4.jpg" alt="cybersec" class="pic2" width="400px" height="400px">
+   <img src="./images/subscribepg.png" alt="cyberworld" class="pic1" width="400px" height="400px">
+
+  <!--table design-->
+  <div class="table">
+    <style>
+      table, th, td {
+        border: 1px solid pink;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 5px;
+      }
+      </style>
+  
+      <style>
+        .table1 {
+          margin-left: auto;
+          margin-right: auto;
+        }
+      </style>
+  <form action="index.html" method="POST">
+    <table style="width: 17%;" class="table1">
+      <tr>
+        <td>
+          <label style="color: pink; font-family: 'Barlow Semi Condensed', sans-serif;">Name :</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="text" name="user_name">
+        </tr>
+      </td>
+      <tr>
+        <td>  
+          <label style="color: pink;font-family: 'Barlow Semi Condensed', sans-serif;">Email :</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="email" name="user_email">
+        </tr>
+      </td>
+      <tr>
+        <td> 
+    <label style="color: pink;font-family: 'Barlow Semi Condensed', sans-serif;">Contact :</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" name="user_contact">
+    </tr>
+        </td>
+        <tr>
+          <td>
+         <label style="color: pink;font-family: 'Barlow Semi Condensed', sans-serif;">Gender :</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <label style="color: pink;font-family: 'Barlow Semi Condensed', sans-serif;">Male</label>
+         &nbsp;<input type="radio" name="user_gender">
+         <label style="color: pink;font-family: 'Barlow Semi Condensed', sans-serif;">Female</label>
+         &nbsp<input type="radio" name="user_gender">
+        </tr>
+      </td>
+      <tr>
+        <td>
+    <label style="color: pink;font-family: 'Barlow Semi Condensed', sans-serif;">Subscribe to my newsletter!</label>
+    <input type="checkbox" name="user_newsletter">
+    <tr>
+      <td>
+    <label style="color: pink;font-family: 'Barlow Semi Condensed', sans-serif;">Nationality :</label>
+    <select id="user_nationality" name="user_nationality">
+      <option value="Singapore">Singapore</option>
+      <option value="Malaysia">Malaysia</option>
+      <option value="Others">Others</option>
+    </select>
+    <br><br>
+    <label style="color: pink;font-family: 'Barlow Semi Condensed', sans-serif;">
+      Message
+    </label><br><br>
+    <textarea id="user_message" name="user_message" cols="50" rows="10" placeholder="Please type your text here" style="font-family: 'Barlow Semi Condensed', sans-serif;"></textarea>
+    <br><br>
+
+    <button type="submit"><a href="index.html">SUBMIT</a></button>
+  </form>
+</div>
+<div>
+<h1 class="thankyou" style="color: pink;font-family: 'Barlow Semi Condensed', sans-serif;">
+  <style>
+    .thankyou {
+      align-content: center;
+    }
+  </style>
+  THANK YOU FOR SUBSCRIBING :)
+</h1>
+</div>
+</html>

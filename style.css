@@ -1,0 +1,152 @@
+/*navigation bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 160, 176);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #850f23;
+}
+
+.active {
+  background-color: #270512;
+}
+
+/*background*/
+body {
+  background-image:url(./images/background2.webp) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*introduction*/
+.introduction {
+  color: rgb(255, 160, 176);
+}
+
+
+
+/*chart*/
+table, th, td {
+  border: 1px solid #ffa0b0;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #000000;
+}
+
+/*types of attack section*/
+.attacktypes {
+  color: #ffa0b0;
+}
+
+/*news section*/
+.news {
+  color: #ffa0b0;
+}
+
+.solar:link {
+  color: #850f23;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.solar:visited {
+  color: #850f23;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.solar:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.solar:active {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.twitter:link {
+  color: #850f23;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.twitter:visited {
+  color: #850f23;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.twitter:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.twitter:active {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.wannacry:link {
+  color: #850f23;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.wannacry:visited {
+  color: #850f23;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.wannacry:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.wannacry:active {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+/*subscribe portion*/
+.connect {
+  color: #df2d4a;
+}
+
+
+.con1 {
+  text-align: center;
+}
+.con2 {
+  text-align: center;
+}
+.sub {
+  text-align: center;
+}
+.sub1 {
+  text-align: center;
+}
+.sub3 {
+  margin: 0;
+  position: absolute;
+  right: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
